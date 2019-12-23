@@ -1,7 +1,9 @@
 import pandas
 
+import my_module.hoge
 
-pandas.DataFrame({
-    'a': [0, 1, 2],
-    'b': [10, 11, 12],
-}, index=['s1', 's2', 's3']).to_html('docs/_includes/table.html')
+
+pandas.DataFrame(
+    my_module.hoge.get_results(),
+    index=['s1', 's2', 's3']
+).to_html('docs/_includes/table.html')
