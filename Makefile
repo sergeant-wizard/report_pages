@@ -1,4 +1,10 @@
 PY_DEPS = $(shell python find_python_dependencies.py $(1))
 
-docs/_includes/table.html: $(call PY_DEPS,analysis.py)
+ALL := \
+  docs/_includes/table.html \
+  docs/assets/chart.png
+
+all: $(ALL)
+
+$(ALL): $(call PY_DEPS,analysis.py)
 	python analysis.py
