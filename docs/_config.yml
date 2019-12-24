@@ -26,7 +26,7 @@ url: "https://sergeant-wizard.github.io/report_pages" # the base hostname & prot
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 # plugins:
 #   - jekyll-feed
 
