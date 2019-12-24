@@ -17,7 +17,7 @@ title: Report Pages
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Seamless reporting through github pages
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "report_pages" # the subpath of your site, e.g. /blog
 url: "https://sergeant-wizard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
