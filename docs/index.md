@@ -6,5 +6,5 @@ layout: default
 ---
 
 {% for post in site.posts %}
-- [{{ post.title | relative_url }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
