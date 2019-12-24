@@ -2,7 +2,7 @@ PY_DEPS = $(shell python find_python_dependencies.py $(1))
 
 ALL := \
   docs/_includes/table.html \
-  docs/assets/chart.png
+  docs/images/chart.png
 
 all: $(ALL)
 

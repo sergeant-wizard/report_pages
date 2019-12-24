@@ -13,4 +13,4 @@ pandas.DataFrame(
 x = numpy.linspace(-6, 6, 12)
 matplotlib.pyplot.plot(
     x, numpy.sin(x))
-matplotlib.pyplot.savefig('docs/assets/chart.png')
+matplotlib.pyplot.savefig('docs/images/chart.png')
