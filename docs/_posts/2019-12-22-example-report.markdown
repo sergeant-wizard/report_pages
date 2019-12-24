@@ -2,7 +2,8 @@
 layout: post
 title:  "example report"
 date:   2019-12-22 18:35:56 -0800
-categories: jekyll update
+author: me
+tags: analysis
 ---
 
 - written
