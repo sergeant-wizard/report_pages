@@ -4,7 +4,11 @@ import sys
 finder = modulefinder.ModuleFinder(
     path=['.'],
 )
-finder.run_script(sys.argv[1])
+this = sys.argv[1]
+finder.run_script(this)
+
+print(this)
 
 for mod in finder.modules.values():
-    print(mod.__file__)
+    if mod.__file__ != this:
+        print(mod.__file__)
